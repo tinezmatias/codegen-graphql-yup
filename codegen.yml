@@ -4,5 +4,5 @@ generates:
   schemas.ts:
     plugins:
       - ./dist/index.js:
-          defaultRequiredMessage: "Este campo es requerido"
-          onlyWithConstrain: true
+          defaultRequiredMessage: "This field have generic message"
+          onlyWithConstrain: false

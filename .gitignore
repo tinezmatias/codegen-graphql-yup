@@ -1,6 +1,5 @@
 node_modules
 dist
 .npmignore
-result.graphql
 schemas.ts
 package-lock.json
