@@ -1,5 +1,5 @@
 {
-  "name": "gencodeplugin",
+  "name": "codegen-graphql-yup",
   "version": "1.0.0",
   "description": "Its a library to parse from Graphql Schema to a Yup Schema",
   "main": "./dist/index.js",
