@@ -15,7 +15,7 @@ import fieldNamedTypeHandler from './namedTypesHandlers';
 const fieldKindHandler = (type: NamedTypeNode | TypeNode, defaultRequiredMessage: string) => {
     let result = ''
     if (isArray(type.kind)) {
-        result = `yup.arrayOf(${fieldKindHandler(type.type, defaultRequiredMessage)})`
+        result = `yup.array().of(${fieldKindHandler(type.type, defaultRequiredMessage)})`
     }
 
     if (isRequired(type.kind)) {
