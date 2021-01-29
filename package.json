@@ -1,8 +1,9 @@
 {
   "name": "codegen-graphql-yup",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Its a library to parse from Graphql Schema to a Yup Schema",
   "main": "./dist/index.js",
+  "homepage": "https://github.com/tinezmatias/codegen-graphql-yup",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "generate": "tsc && graphql-codegen"
