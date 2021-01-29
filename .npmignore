@@ -1,5 +1,9 @@
 node_modules
 lib
+src
 package-lock.json
 tsconfig.json
 script
+result.graphql
+schemas.ts
+codegen.yml
