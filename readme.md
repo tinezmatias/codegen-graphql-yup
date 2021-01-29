@@ -105,7 +105,7 @@ schema: "./result.graphql"
 generates:
   schemas.ts:
     plugins:
-      - ./dist/index.js:
+      - codegen-graphql-yup:
           defaultRequiredMessage: "This field have generic message"
           onlyWithConstrain: false
 
