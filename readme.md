@@ -2,10 +2,6 @@
 
 The reason for this project is to maintain a single source of truth, between graphql and yup.
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
 ## Configs
 
 - defaultRequiredMessage: string, this message is overwrited if you use requeridMessage in the directive.
@@ -133,6 +129,10 @@ export const RegisterAddressInputSchema = yup.object().shape({
 ```
 
 ## COLABORATE
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 
