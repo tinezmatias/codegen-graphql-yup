@@ -32,7 +32,7 @@ const directiveHandler = (directives: readonly DirectiveNode[] = []): { required
 
     if ('requiredMessage' in result) {
         const { requiredMessage, ...extraValidations } = result
-        result = { requiredMessage, ...extraValidations }
+        result = { requiredMessage, extraValidations }
     } else {
         result = { extraValidations: result }
     }
